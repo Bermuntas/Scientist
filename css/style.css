@@ -1,0 +1,74 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f8f8f8;
+}
+
+article img{
+    width: 160px;
+}
+
+
+article {
+    border: 1px solid #cecece;
+    padding: 30px 20px;
+    border-top-width: 5px;
+    border-top-color: #0974b3;
+    margin: 20px;
+    background-color: white;
+}
+
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+h1{
+    color:#0974b3;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Fix float left issues */
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.newton {
+    width: 917px;
+}
+
+.other {
+    width: 415px;
+    float:left;
+    padding-bottom: 40px;
+}
+
+article:nth-child(3){
+    width: 420px;
+}
+
+.tesla{
+    margin-left: 20px;
+}
+
+.poster{
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.year {
+    color: #666;
+}
